@@ -112,10 +112,13 @@
 
 
 #a.	Find the longest word in a given sentence. 
-string=str(input("enter the string"))
-for char in string:
-    if char in ['.',',','!','?']:
-        string=string.replace(char,"")
+# string=str(input("enter the string"))
+# for char in string:
+#     if char in ['.',',','!','?']:
+#         string=string.replace(char,"")
 
-words=string.split(" ")
-longest_word = ""
+# words=string.split(" ")
+# longest_word = ""
+
+str="tejas"
+str.lo

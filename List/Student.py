@@ -60,41 +60,113 @@
 #     highest = None
 #     for student in Student_List:
 #         grade = student[1]
-#         if highest is None or grade < highest:
-#             highest = grade
+# #         if highest is None or grade < highest:
+# #             highest = grade
+# #     print(f"Highest Grade: {highest}")
+
+# # def lowestGrade():
+# #     lowest = None
+# #     for student in Student_List:
+# #         grade = student[1]
+# #         if lowest is None or grade > lowest:
+# #             lowest = grade
+# #     print(f"Lowest Grade: {lowest}")
+
+# # highestGrade()
+# # lowestGrade()
+
+
+
+# # 7.	Write a program to develop an inventory system for a small store.
+# #     Each product has a name and a quantity in stock.
+# #     The system should allow you to:
+
+# # ●	Add new products with their quantities.
+# # ●	Update the quantity of an existing product.
+# # ●	Display the product with the highest stock.
+# # ●	Remove a product from the inventory once it is sold out (quantity reaches 0).
+# # ●	Display the total number of unique products in the inventory.
+
+# stock=[]
+
+# def addProducts(names,quantity):
+#     stock.append(names)
+#     stock.append(quantity)
+
+# addProducts("Samosa",20)
+# print(stock)
+
+
+# def updateQuantity(item,newQuantity):
+#     if(stock[item] == "Samosa"):
+        
+#            stock.append(newQuantity)
+#     else:
+#        print("no need to update")
+     
+
+# print(stock)
+
+
+# updateQuantity(20,12)
+
+
+# def highestStock():
+#     highest = None
+#     for item in stock:
+#         high = item[1]
+#         if highest is None or high < highest:
+#             highest = high
 #     print(f"Highest Grade: {highest}")
 
-# def lowestGrade():
-#     lowest = None
-#     for student in Student_List:
-#         grade = student[1]
-#         if lowest is None or grade > lowest:
-#             lowest = grade
-#     print(f"Lowest Grade: {lowest}")
-
-# highestGrade()
-# lowestGrade()
+# def removeProduct(name):
+#     for prod in stock:
+#         if prod[0] == name:
+#             stock.remove(prod)
+#             print(f"Product {name} deleted.")
+#             break
+#     else:
+#         print(f"Product {name} not found.")
 
 
-
-# 7.	Write a program to develop an inventory system for a small store.
-#     Each product has a name and a quantity in stock.
-#     The system should allow you to:
-
-# ●	Add new products with their quantities.
-# ●	Update the quantity of an existing product.
-# ●	Display the product with the highest stock.
-# ●	Remove a product from the inventory once it is sold out (quantity reaches 0).
-# ●	Display the total number of unique products in the inventory.
-
-stock=[]
-
-def addProducts(names,quantity):
-    stock.append(names)
-
-addProducts("Samosa",20)
-print(stock)
+        
 
 
 
 
+
+
+# 8.	Write a program to check if two given strings
+# are anagrams. Two strings are anagrams if they contain the same characters in 
+# the same frequency but in a different order (e.g., "listen" and "silent"). The program should:
+#  ●	Accept two strings as input.
+# ●	Ignore spaces, case, and punctuation.
+# ●	Determine if the two strings are anagrams of each other.
+
+# def anagrams(word1,word2):
+#     if sorted(word1.lower()) == sorted(word2.lower()):
+#         print(f"The {word1} and the {word2} are a anagrams")
+
+#     else:
+#         print("Not anagram")
+
+# anagrams("listen","silent")
+
+
+
+# 10.	Write a program that counts the frequency of each character in a given string. The program should:
+# ●	Count how many times each character (including spaces and punctuation) appears in the string.
+# ●	Display the frequency of each character in descending order of frequency.
+# ●	Allow the user to ignore case or make it case-sensitive.
+
+
+string=str(input("Enter the string"))
+count=0
+def countFrequency(char):
+    
+    for i in string:
+        if str[i]==char:
+            count+=1
+countFrequency('a')
+print(count)
+ 
