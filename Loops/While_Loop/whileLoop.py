@@ -13,6 +13,7 @@ while i <= n:
     i += 2
 
 # 3: Print odd numbers up to n
+    
 n = int(input("Enter n for odd numbers (3): "))
 i = 1
 while i <= n:

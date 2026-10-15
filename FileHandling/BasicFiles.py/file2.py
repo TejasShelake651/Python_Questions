@@ -1,8 +1,8 @@
 file = open("ex.txt", "r")
 
-print(file.read())
-print(file.readline())
-print(file.readlines())
+print(file.read())# reads the enitre file and give the normal output file
+print(file.readline())# reads the first line of the file
+print(file.readlines())#reads the entire file and gives the output in list format
 
 file.close()
 

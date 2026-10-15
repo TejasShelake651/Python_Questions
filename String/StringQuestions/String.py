@@ -1,30 +1,30 @@
-#●	Write a program to input a string and display its length without using the len() function. 
+●	Write a program to input a string and display its length without using the len() function. 
 
-# string=str(input("Enter the string"))
-# count=0
+string=str(input("Enter the string"))
+count=0
 
-# for i in string:
-#     count+=1
-# print("Length of the string is ",count)
+for i in string:
+    count+=1
+print("Length of the string is ",count)
 
 
-#●Count the number of vowels, consonants, digits, spaces, and special characters in a given string. 
+●Count the number of vowels, consonants, digits, spaces, and special characters in a given string. 
 
-# string1=str(input("Enter the string"))
+string1=str(input("Enter the string"))
 
-# for i in string1:
-#     if(i>='a' and i<='z') or (i>='A' and i<='Z'):
-#         if(i=='a' or i=='e' or i=='i' or i=='o' or i=='u' or i=='A' or i=='E' or i=='I' or i=='O' or i=='U'):
-#             print(i,"is vowel")
+for i in string1:
+    if(i>='a' and i<='z') or (i>='A' and i<='Z'):
+        if(i=='a' or i=='e' or i=='i' or i=='o' or i=='u' or i=='A' or i=='E' or i=='I' or i=='O' or i=='U'):
+            print(i,"is vowel")
         
-#         else:
-#             print(i,"is consonant")
-#     elif(i>='0' and i<='9'):
-#         print(i,"is digit")
-#     elif(i==" "):
-#         print("space")
-#     else:
-#         print(i,"is special character")
+        else:
+            print(i,"is consonant")
+    elif(i>='0' and i<='9'):
+        print(i,"is digit")
+    elif(i==" "):
+        print("space")
+    else:
+        print(i,"is special character")
 
 # ●	Reverse the given string without using built-in reverse functions. 
 
