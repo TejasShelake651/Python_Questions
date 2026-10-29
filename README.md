@@ -123,13 +123,33 @@ Located in `oops/`:
 
 ---
 
+### 10. 🖥️ Desktop GUI with Tkinter
+- **`TKINTER_WIDGET/`**
+  - 20 standalone Python Tkinter GUI scripts demonstrating key widgets:
+    - **Controls & Input**: `Button.py`, `label.py`, `Entry.py`, `Checkbutton.py`, `Radiobutton.py`
+    - **Pickers & Sliders**: `Spinbox.py`, `Scale.py`, `Listbox.py`, `Combobox.py`
+    - **Layout & Windows**: `Frame.py`, `LabelFrame.py`, `PanedWindow.py`, `Toplevel.py`
+    - **Text & Graphics**: `Text.py`, `Message.py`, `Canvas.py`
+    - **Menus & Dialogs**: `Menu.py`, `Menubutton.py`, `MessageBox.py`, `Scrollbar.py`
+
+---
+
+### 11. 🌐 Web Development with Django
+- **`Django/`**
+  - `Django_Web_Experiment/mydemoproject/`:
+    - Full Django 5.x project with `demoapp`.
+    - Implements user authentication flow (login view with POST validation and flash messages).
+    - Custom templates (`login.html`) and SQLite database (`db.sqlite3`).
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
 - Python 3.8 or higher installed on your system.
-- Recommended libraries for data science and NLP modules:
+- Recommended libraries:
   ```bash
-  pip install numpy pandas matplotlib nltk
+  pip install numpy pandas matplotlib nltk django
   ```
 
 ### Running a Program
