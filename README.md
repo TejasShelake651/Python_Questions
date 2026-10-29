@@ -136,7 +136,7 @@ Located in `oops/`:
 
 ### 11. 🌐 Web Development with Django
 - **`Django/`**
-  - `Django_Web_Experiment/mydemoproject/`:
+  - `mydemoproject/`:
     - Full Django 5.x project with `demoapp`.
     - Implements user authentication flow (login view with POST validation and flash messages).
     - Custom templates (`login.html`) and SQLite database (`db.sqlite3`).
